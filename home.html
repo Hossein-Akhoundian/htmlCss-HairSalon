@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+
+  <body>
+    <section id="banner">
+      <img class="logo" src="photo/logo.png" alt="" />
+
+      <div class="banner-text">
+        <h1>Hair Studio</h1>
+        <p>Style Your Hair Is Style Your Life</p>
+
+        <div class="banner-btn">
+          <a href="#"><span></span> Find Out</a>
+          <a href="#"><span></span> Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="#banner">HOME</a></li>
+          <li><a href="#feature">FEATURES</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#testimonials">TESTIMONIALS</a></li>
+          <li><a href="#footer">MEET US</a></li>
+        </ul>
+      </nav>
+
+      <div id="menuBtn">
+        <img src="photo/menu.png" id="menu" />
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section id="feature">
+      <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us</h1>
+      </div>
+
+      <div class="festure-box">
+        <div class="features">
+          <h1>Experienced Staff</h1>
+          <p>
+            They can recommend hairstyles and nail colors to match clients'
+            needs and personal style. Experienced staff can also provide
+            guidelines to clients on how to take care of their hair and skin
+          </p>
+        </div>
+
+        <div class="features-img">
+          <img src="photo/beuty.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+
+    <section id="service">
+      <div class="title-text">
+        <p>SERVICES</p>
+        <h1>We Provide Better</h1>
+      </div>
+
+      <div class="sevice-box">
+        <div class="single-service">
+          <img src="photo/pic1.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="service-desc">
+            <h1>Hair Styling</h1>
+            <hr />
+            <p>We can do all kinds of hairstyles for you, at your request.</p>
+          </div>
+        </div>
+
+        <div class="single-service">
+          <img src="photo/pic2.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="service-desc">
+            <h1>work place</h1>
+            <hr />
+            <p>
+              In a quiet and clean environment, for people for whom peace is
+              very important.
+            </p>
+          </div>
+        </div>
+
+        <div class="single-service">
+          <img src="photo/pic3.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="service-desc">
+            <h1>Skin Cleaning</h1>
+            <hr />
+            <p>
+              In addition to the services you provide for hair removal, you can
+              leave your skin cleansing to us.
+            </p>
+          </div>
+        </div>
+
+        <div class="single-service">
+          <img src="photo/pic4.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="service-desc">
+            <h1>Easy choice</h1>
+            <hr />
+            <p>You can choose your hairstyle from the brochure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="title-text">
+        <p>TESTIMONIALS</p>
+        <h1>Our clients Say</h1>
+      </div>
+
+      <div class="testimonials-row">
+        <div class="testimonials-col">
+          <div class="user">
+            <img src="photo/img1.jpg" />
+          </div>
+          <div class="user-info">
+            <h4>Negin</h4>
+          </div>
+          <p>
+            One of the best hair salons I've seen, I'm really happy with my new
+            hairstyle.
+          </p>
+        </div>
+
+        <div class="testimonials-col">
+          <div class="user">
+            <img src="photo/img2.jpg" />
+          </div>
+          <div class="user-info">
+            <h4>Mariana</h4>
+          </div>
+          <p>
+            Apart from the professional work, I enjoyed the calm and beautiful
+            environment immensely.
+          </p>
+        </div>
+
+        <div class="testimonials-col">
+          <div class="user">
+            <img src="photo/img3.jpg" />
+          </div>
+          <div class="user-info">
+            <h4>John</h4>
+          </div>
+          <p>
+            Your behavior is just like your professional cartoon, thank you very
+            much.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section id="footer">
+      <div class="title-text">
+        <p>CONTACT US</p>
+        <h1>Visit Shop Today</h1>
+      </div>
+
+      <div class="footer-row">
+        <div class="footer-left">
+          <h1>Opening Hours</h1>
+          <p>Monday to Friday - 9am to 6pm</p>
+          <p>Saturday 9am to 11am</p>
+        </div>
+
+        <div class="footer-right">
+          <h1>Get in Touch</h1>
+          <p>#32, Via Roma, Milan</p>
+          <p>hosseinakhoundian@gmail.com</p>
+          <p>+989137085836</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var menu = document.getElementById("menu");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-200px";
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-200px") {
+          sideNav.style.right = "0";
+          menu.src = "photo/close.png";
+        } else {
+          sideNav.style.right = "-200px";
+          menu.src = "photo/menu.png";
+        }
+      };
+
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true,
+      });
+    </script>
+  </body>
+</html>
